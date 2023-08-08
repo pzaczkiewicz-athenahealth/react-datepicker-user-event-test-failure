@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig-base",
+  "include": ["./**/*"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "Node16",
+    "outDir": "../dist",
+    "rootDir": "."
+  },
+  "exclude": []
+}

@@ -1,0 +1,4 @@
+{
+  "references": [{ "path": "packages/react-datepicker-user-event-test-failure" }, { "path": "scripts" }],
+  "files": []
+}

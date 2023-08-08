@@ -1,0 +1,39 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "react-datepicker-user-event-test-failure#build": {
+      "dependsOn": ["build:babel", "build:types"]
+    },
+    "react-datepicker-user-event-test-failure#build:babel": {
+      "dependsOn": []
+    },
+    "react-datepicker-user-event-test-failure#build:compile-sass": {
+      "dependsOn": []
+    },
+    "react-datepicker-user-event-test-failure#build:copy-sass": {
+      "dependsOn": []
+    },
+    "build": {
+      "dependsOn": ["build:types"]
+    },
+    "build:types": {
+      "dependsOn": []
+    },
+    "react-datepicker-user-event-test-failure-storybook#start": {
+      "dependsOn": ["react-datepicker-user-event-test-failure#build"],
+      "outputs": []
+    },
+    "react-datepicker-user-event-test-failure-root#lint:scss": {
+      "dependsOn": []
+    },
+    "react-datepicker-user-event-test-failure-root#lint:js": {
+      "dependsOn": ["react-datepicker-user-event-test-failure#build"]
+    },
+    "react-datepicker-user-event-test-failure-root#lint": {
+      "dependsOn": ["lint:scss", "lint:js"]
+    },
+    "react-datepicker-user-event-test-failure-root#test": {
+      "dependsOn": ["react-datepicker-user-event-test-failure#build"]
+    }
+  }
+}

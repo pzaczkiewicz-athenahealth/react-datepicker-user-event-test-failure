@@ -1,0 +1,14 @@
+.pnp.cjs
+.pnp.loader.mjs
+.yarn
+dist
+packages/react-datepicker-user-event-test-failure-guide/.cache
+packages/react-datepicker-user-event-test-failure-guide/public
+packages/react-datepicker-user-event-test-failure-shared/src/tokens/_*.ts
+packages/storybook/publish
+packages/react-datepicker-user-event-test-failure/src/**/*.stories.js
+packages/react-datepicker-user-event-test-failure/src/Icon/_autogen
+packages/react-datepicker-user-event-test-failure-icons/dist
+packages/react-datepicker-user-event-test-failure-icons/src/index.ts
+packages/react-datepicker-user-event-test-failure-icons/src/**/*Small.tsx*
+packages/react-datepicker-user-event-test-failure-icons/src/**/*Large.tsx*

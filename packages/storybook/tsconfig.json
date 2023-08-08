@@ -1,0 +1,6 @@
+{
+  "extends": "../../tsconfig-base",
+  "include": [".storybook", "stories", "global.d.ts"],
+  "compilerOptions": { "outDir": "./dist", "rootDir": "." },
+  "references": [{ "path": "../react-datepicker-user-event-test-failure" }]
+}
